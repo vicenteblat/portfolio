@@ -9,6 +9,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
 }
 
 .welcome-message {
