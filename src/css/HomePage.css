@@ -3,32 +3,41 @@ html {
   height: 100%;
 }
 
-.background {
+.background-image {
   background-image: url('../background.jpg');
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
   height: 100vh;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   filter: grayscale(100%);
 }
 
-.welcome-message {
-  position: absolute;
-  width: 649px;
-  height: 127px;
-  left: 800px;
-  top: 190px;
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  font-family: Roboto;
-  font-style: normal;
+.welcome-message {
+  position: center;
+  font-family: Courier;
   font-weight: bold;
   font-size: 80px;
-  line-height: 94px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  color: #c8c8cd;
+  filter: brightness(2);
+  text-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
+}
 
-  color: #000000;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.intro {
+  position: center;
+  font-family: Courier;
+  font-size: 20px;
+  color: #317fe6;
 }
