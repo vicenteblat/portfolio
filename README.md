@@ -1,2 +1,2 @@
-#Vicente Blat's Portfolio
+# Vicente Blat's Portfolio
 This repo contains Vicente Blat's personal portfolio
