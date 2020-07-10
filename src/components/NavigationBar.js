@@ -6,11 +6,9 @@ class NavigationBar extends Component {
   render() {
     return (
       //scrolling dark expand="md" fixed="top"
-      <Navbar className="navbar-background">
+      <Navbar className="navbar-background" bg="light" expand="md">
         <Nav className="mr-auhref">
-          <NavLink className="navbar-links" href="/Home">
-            Home
-          </NavLink>
+          <NavLink href="/Home">Home</NavLink>
           <NavLink href="/About">About me</NavLink>
           <NavLink href="/Resume">Resume</NavLink>
           <NavLink href="/Projects">Projects</NavLink>
