@@ -35,9 +35,26 @@ html {
   text-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
 }
 
-.intro {
+.intro-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
+}
+
+.intro-p {
   position: center;
   font-family: Courier;
+  font-weight: bold;
   font-size: 20px;
-  color: #317fe6;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
