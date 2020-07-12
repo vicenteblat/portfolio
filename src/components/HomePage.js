@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import '../css/HomePage.css';
+import NavigationBar from './NavigationBar';
 
 class HomePage extends Component {
   render() {
     return (
       <>
         <div className="background-image"></div>
+        <NavigationBar />
         <div className="content">
           <h1 className="welcome-message">Vicente Blat</h1>
           <div class="row">
