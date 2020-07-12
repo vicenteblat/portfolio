@@ -8,7 +8,7 @@ class HomePage extends Component {
       <>
         <div className="background-image"></div>
         <div className="content">
-          <h1 className="welcome-message">Hi, I’m Vicente!</h1>
+          <h1 className="welcome-message">Vicente Blat</h1>
           <div class="row">
             <div class="col-lg-7 col-centered">
               <Card className="intro-box">
