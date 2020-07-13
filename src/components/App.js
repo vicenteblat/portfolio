@@ -18,6 +18,7 @@ class App extends Component {
         <NavigationBar />
         <HomePage />
         <AboutPage />
+        <ResumePage />
       </div>
     );
   }
