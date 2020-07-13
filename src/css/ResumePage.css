@@ -1,0 +1,18 @@
+.about-wrapper {
+  height: 100vh;
+}
+
+.about-section {
+  padding-top: 60px;
+}
+
+.section-title {
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #000000;
+}
+
+.resume-paragraph {
+  border-bottom: 1px dotted;
+}
