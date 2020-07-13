@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/AboutPage.css';
+import NavigationBar from './NavigationBar';
 
 class AboutPage extends Component {
   render() {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import '../css/HomePage.css';
+import NavigationBar from './NavigationBar';
 
 class HomePage extends Component {
   render() {

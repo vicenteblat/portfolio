@@ -5,10 +5,10 @@ import '../css/App.css';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ResumePage from './ResumePage';
+import CertificatesPage from './CertificatesPage';
 import ProjectsPage from './ProjectsPage';
 import MemesPage from './MemesPage';
 import ContactPage from './ContactPage';
-import NavigationBar from './NavigationBar';
 
 class App extends Component {
   render() {
