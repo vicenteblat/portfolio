@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import '../css/HomePage.css';
-import NavigationBar from './NavigationBar';
 
 class HomePage extends Component {
   render() {
     return (
-      <div className="wrapperContainer background-image">
-        <section className="top-buffer d-flex align-items-center text-center">
+      <div id="Home" className="wrapperContainer background-image">
+        <section className="home-section d-flex align-items-center text-center">
           <Container className="home-text">
             <h1 className="welcome-message">Vicente Blat</h1>
             <div class="row d-flex justify-content-center">
