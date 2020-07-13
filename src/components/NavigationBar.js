@@ -1,39 +1,72 @@
-import React, { Component, onMouseEnter } from 'react';
-import { Navbar, Nav, NavLink } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Container, Navbar, Nav, NavLink } from 'react-bootstrap';
+import { FaGg } from 'react-icons/fa';
 import '../css/NavigationBar.css';
 
 class NavigationBar extends Component {
   render() {
     return (
-      <Navbar className="navbar-container" expand="md">
-        <Navbar.Brand className="navbar-logo">VB</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <NavLink className="navbar-links" href="/Home">
-              Home
-            </NavLink>
-            <NavLink className="navbar-links" href="/About">
-              About me
-            </NavLink>
-            <NavLink className="navbar-links" href="/Resume">
-              Resume
-            </NavLink>
-            <NavLink className="navbar-links" href="/Resume">
-              Certificates
-            </NavLink>
-            <NavLink className="navbar-links" href="/Projects">
-              Projects
-            </NavLink>
-            <NavLink className="navbar-links" href="/Memes">
-              Memes
-            </NavLink>
-            <NavLink className="navbar-links" href="/Contact">
-              Contact
-            </NavLink>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <header id="Home" data-section="Home">
+        <Navbar
+          className="nav-text text-uppercase"
+          expand="xl"
+          bg="secondary"
+          variant="dark"
+        >
+          <Container fluid>
+            <Navbar.Brand href="#Home">
+              <FaGg /> Vicente Blat
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="ml-auto">
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Home"
+                >
+                  Home
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#About"
+                >
+                  About me
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Resume"
+                >
+                  Resume
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Certificates"
+                >
+                  Certificates
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Projects"
+                >
+                  Projects
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Memes"
+                >
+                  Memes
+                </NavLink>
+                <NavLink
+                  className="nav-links-tx text-nowrap d-flex justify-content-center"
+                  href="#Contact"
+                >
+                  Contact
+                </NavLink>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </header>
     );
   }
 }

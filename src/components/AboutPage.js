@@ -6,8 +6,11 @@ class AboutPage extends Component {
   render() {
     return (
       <div>
-        <NavigationBar />
-        <h1>About Page</h1>
+        <section id="About">
+          <header>
+            <h2>About me</h2>
+          </header>
+        </section>
       </div>
     );
   }

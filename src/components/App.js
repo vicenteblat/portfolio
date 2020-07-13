@@ -13,17 +13,11 @@ import ContactPage from './ContactPage';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Route path={['/', '/Home']} component={HomePage} exact />
-          <Route path="/About" component={AboutPage} exact />
-          <Route path="/Resume" component={ResumePage} exact />
-          <Route path="/Certificates" component={CertificatesPage} exact />
-          <Route path="/Projects" component={ProjectsPage} exact />
-          <Route path="/Memes" component={MemesPage} exact />
-          <Route path="/Contact" component={ContactPage} exact />
-        </div>
-      </Router>
+      <div>
+        <NavigationBar />
+        <HomePage />
+        <AboutPage />
+      </div>
     );
   }
 }

@@ -1,23 +1,7 @@
-.navbar-container {
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 1px 0px 1px 20px;
+.nav-text {
+  font-family: Verdana;
 }
 
-.navbar-links {
-  font-weight: bold;
-  font-size: 18px;
-  color: black !important;
-}
-
-.navbar-links:hover {
-  font-weight: bold;
-  font-size: 18px;
-  color: rgb(0, 38, 255) !important;
-}
-
-.navbar-logo {
-  font-weight: bold;
-  font-size: 25px;
-  color: rgb(255, 0, 0) !important;
-}
+.nav-links-tx {
+  margin-left: 25px;
+  margin-right: 25px;
