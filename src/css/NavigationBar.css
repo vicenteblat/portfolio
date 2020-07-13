@@ -1,8 +1,8 @@
-.navbar-background {
-  opacity: 1;
+.nav-text {
+  font-family: Verdana;
 }
 
-.navbar-links {
-  color: white !important;
-  font-size: 1.8em !important;
+.nav-links-tx {
+  margin-left: 25px;
+  margin-right: 25px;
 }

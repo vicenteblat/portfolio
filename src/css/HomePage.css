@@ -1,4 +1,67 @@
-body,
+/* .background-image {
+  background: url('../background.jpg');
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  opacity: 0.2;
+} */
+
+.background-image {
+  background: url('../background.jpg') no-repeat center center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+}
+
+.home-text {
+  z-index: 2;
+}
+
+.top-buffer {
+  padding-top: 45px;
+}
+
+.welcome-message {
+  position: center;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #c8c8cd;
+  filter: brightness(2);
+  text-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
+}
+
+.intro-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
+}
+
+.intro-p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: center;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+/* body,
 html {
   height: 100%;
 }
@@ -57,4 +120,4 @@ html {
 .col-centered {
   float: none;
   margin: 0 auto;
-}
+} */
