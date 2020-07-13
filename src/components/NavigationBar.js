@@ -8,10 +8,11 @@ class NavigationBar extends Component {
     return (
       <header id="Home" data-section="Home">
         <Navbar
-          className="nav-text text-uppercase"
+          collapseOnSelect
+          className="navbar-header text-uppercase"
           expand="xl"
-          bg="secondary"
           variant="dark"
+          fixed="top"
         >
           <Container fluid>
             <Navbar.Brand href="#Home">
@@ -19,7 +20,7 @@ class NavigationBar extends Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="ml-auto">
+              <Nav className="nav-text ml-auto">
                 <NavLink
                   className="nav-links-tx text-nowrap d-flex justify-content-center"
                   href="#Home"
