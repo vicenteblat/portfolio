@@ -8,11 +8,14 @@ import certificate03 from '../React-Building-Interface.jpg';
 class CertificatesPage extends Component {
   render() {
     return (
-      <div id="Certificates" className="certificates-wrapper">
+      <div
+        id="Certificates"
+        className="certificates-wrapper certificates-background"
+      >
         <section className="certificates-section">
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-12 col-centered">
-              <Container className="carousel-container">
+            <div class="col-centered">
+              <Container fluid className="carousel-container">
                 <Carousel className="certificates-carousel">
                   <Carousel.Item>
                     <img
