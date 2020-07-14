@@ -1,0 +1,23 @@
+.certificates-wrapper {
+  height: 100vh;
+}
+
+.certificates-section {
+  padding-top: 40px;
+}
+
+.certificates-title {
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #000000;
+}
+
+.t-container {
+  padding-bottom: 0%;
+}
+
+.carousel-container {
+  padding-top: 0px;
+  border: dotted;
+}

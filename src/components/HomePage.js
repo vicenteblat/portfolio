@@ -5,7 +5,7 @@ import '../css/HomePage.css';
 class HomePage extends Component {
   render() {
     return (
-      <div id="Home" className="wrapperContainer background-image">
+      <div id="Home" className="wrapperContainer home-background">
         <section className="home-section d-flex align-items-center text-center">
           <Container className="home-text">
             <h1 className="welcome-message">Vicente Blat</h1>

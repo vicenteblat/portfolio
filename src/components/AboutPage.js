@@ -5,10 +5,10 @@ import '../css/AboutPage.css';
 class AboutPage extends Component {
   render() {
     return (
-      <div id="About" className="about-wrapper">
+      <div id="About" className="about-wrapper about-background">
         <section className="about-section">
           <Container>
-            <h1 className="section-title d-flex justify-content-center">
+            <h1 className="about-title d-flex justify-content-center">
               About me
             </h1>
             <div class="row d-flex justify-content-center">

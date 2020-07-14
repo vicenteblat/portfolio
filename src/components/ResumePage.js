@@ -5,10 +5,10 @@ import '../css/ResumePage.css';
 class ResumePage extends Component {
   render() {
     return (
-      <div id="Resume" className="about-wrapper">
-        <section className="about-section">
+      <div id="Resume" className="resume-wrapper">
+        <section className="resume-section">
           <Container>
-            <h1 className="section-title d-flex justify-content-center">
+            <h1 className="resume-title d-flex justify-content-center">
               Resume
             </h1>
             <h2 className="d-flex justify-content-center">Education</h2>
