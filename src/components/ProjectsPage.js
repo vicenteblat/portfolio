@@ -3,6 +3,7 @@ import { Container, Card, CardDeck } from 'react-bootstrap';
 import '../css/ProjectsPage.css';
 import Bronco from '../Bronco.jpg';
 import Alfie from '../Alfie.jpg';
+import Alfa from '../Alfa.jpg';
 
 class ProjectsPage extends Component {
   render() {
@@ -26,6 +27,12 @@ class ProjectsPage extends Component {
                     application, using python to interface with the hardware.
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                  <Card.Text className="text-center">
+                    Checkout this project's{' '}
+                    <a href="https://github.com/vicenteblat">repo</a>
+                  </Card.Text>
+                </Card.Footer>
               </Card>
               <Card>
                 <Card.Img variant="top" src={Alfie} />
@@ -40,19 +47,30 @@ class ProjectsPage extends Component {
                     gathering, all in one machine.
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                  <Card.Text className="text-center">
+                    Checkout this project's{' '}
+                    <a href="https://github.com/vicenteblat/Hack_Covid_19">
+                      repo
+                    </a>
+                  </Card.Text>
+                </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={Alfa} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title className="text-center">Project Alfa</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    <br></br>
+                    My first react web app: a mock consulting firm appointments
+                    managent site.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                  <Card.Text className="text-center">
+                    Checkout this project's{' '}
+                    <a href="https://github.com/vicenteblat/alfa">repo</a>
+                  </Card.Text>
                 </Card.Footer>
               </Card>
             </CardDeck>
