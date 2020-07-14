@@ -24,7 +24,7 @@
 }
 
 .carousel {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 820px;
   height: 600px;
 }
@@ -34,9 +34,17 @@
 }
 
 .carousel-caption {
-  bottom: -100px;
+  bottom: -70px;
 }
 
 .carousel-inner {
   padding-bottom: 100px;
+}
+
+.carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
 }
