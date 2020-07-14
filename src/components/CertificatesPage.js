@@ -13,9 +13,9 @@ class CertificatesPage extends Component {
         className="certificates-wrapper certificates-background"
       >
         <section className="certificates-section">
-          <div class="row d-flex justify-content-center">
-            <div class="col-centered">
-              <Container fluid className="carousel-container">
+          <Container fluid className="carousel-container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-centered">
                 <Carousel className="certificates-carousel">
                   <Carousel.Item>
                     <img
@@ -50,9 +50,9 @@ class CertificatesPage extends Component {
                     </Carousel.Caption>
                   </Carousel.Item>
                 </Carousel>
-              </Container>
+              </div>
             </div>
-          </div>
+          </Container>
         </section>
       </div>
     );

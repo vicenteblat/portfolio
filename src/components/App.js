@@ -7,8 +7,8 @@ import AboutPage from './AboutPage';
 import ResumePage from './ResumePage';
 import CertificatesPage from './CertificatesPage';
 import ProjectsPage from './ProjectsPage';
-import MemesPage from './MemesPage';
-import ContactPage from './ContactPage';
+// import MemesPage from './MemesPage';
+// import ContactPage from './ContactPage';
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
         <AboutPage />
         <ResumePage />
         <CertificatesPage />
+        <ProjectsPage />
       </div>
     );
   }

@@ -1,0 +1,24 @@
+.projects-background {
+  background: url('../sea.jpg') no-repeat center center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+}
+
+.projects-wrapper {
+  height: 100vh;
+}
+
+.projects-section {
+  padding-top: 40px;
+}
+
+.projects-title {
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #000000;
+}
