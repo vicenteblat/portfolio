@@ -16,28 +16,35 @@ class AboutPage extends Component {
                 <Card className="card-box">
                   <Card.Body className="card-paragraph">
                     <Card.Text>
-                      Lorem ipsum dolor sit amet, vim affert alterum ne. An his
-                      adipisci dissentias. Vidit debitis in his. Cu cum graeco
-                      prodesset, no has case senserit temporibus. Minim solet
-                      vis eu. An mazim liber mei, ius copiosae petentium
-                      contentiones ei.
+                      I was born and raised in Caracas, Venezuela. Moved to
+                      Atlanta, Georgia in August of 2016 to pursue a Bachelor's
+                      Degree in Biomedical Engineering from the Georgia
+                      Institute of Technology. I'm expecting to graduate in
+                      December of 2020 and actively looking for full time
+                      opportunities in the fields of medical robotics, medical
+                      devices and prosthetics.
                       <br></br>
                       <br></br>
-                      Porro facete menandri qui ne, eos id diam malis, ex his
-                      solet melius. Qui nemore imperdiet intellegat te, cu magna
-                      essent alterum mel. Ad nam paulo deserunt, oratio luptatum
-                      te vel, ea nam homero malorum vulputate. Pro no latine
-                      euripidis complectitur, fugit ludus an mel, qui verterem
-                      postulant quaerendum no. Modus mentitum appetere cum cu,
-                      et partem aliquid antiopam vel. Impetus diceret
-                      dissentiunt no nec, qui cu mutat inimicus reprehendunt.
+                      Apart from academics I also like to get involved in my
+                      community and participate in extracurricular activities
+                      that allow me to improve my leadership skills. Some ways
+                      in which I was involved in my school were as the Eboard's
+                      Secretary of the Georgia Tech Society of Hispanic
+                      Professional Engineers (2017-2018), a student organization
+                      focused on the academic and professional development of
+                      the Latino community on campus, as a Resident Advisor for
+                      a community of 400 under-graduate students (2017-2020),
+                      and as a Summer Challenge Program Counselor for minority
+                      incoming Georgia Tech freshmen (2017).
                       <br></br>
-                      <br></br>
-                      At mucius ridens dolores vel, sed ex debitis appellantur.
-                      In duo alterum torquatos intellegat, sed vivendum
-                      torquatos ei. Eos eu incorrupte comprehensam. Tamquam
-                      impedit percipit cu sea, malorum consectetuer pro ex, no
-                      nihil democritum vel. An eos vero perpetua dissentiet.
+                      <br></br>I am extremely passionate about my work, and
+                      strive to create innovative projects that will have a
+                      positive impact on society. I am capable of managing
+                      multiple tasks and deliver results as needed. However, I
+                      am not afraid to ask for help when needed. My
+                      organizational skills have allowed me to prioritize
+                      schedules and complete projects within time and budget
+                      guide-lines.
                     </Card.Text>
                   </Card.Body>
                 </Card>
