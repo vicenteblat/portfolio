@@ -1,6 +1,6 @@
 .projects-background {
   background: url('../art-background.jpg') no-repeat center center fixed;
-  height: 100vh;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .projects-wrapper {
-  height: 100vh;
+  height: auto;
 }
 
 .projects-section {

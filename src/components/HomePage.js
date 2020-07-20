@@ -14,7 +14,7 @@ class HomePage extends Component {
                 <Card className="intro-box">
                   <Card.Body className="intro-p">
                     <Card.Text>
-                      Senior Biomedical Engineeering student at the Georgia
+                      Senior Biomedical Engineering student at the Georgia
                       Institute of Technology. Interested in: robotics,
                       prosthetics, medical devices and software development.
                     </Card.Text>
