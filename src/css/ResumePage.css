@@ -1,5 +1,5 @@
 .resume-background {
-  background: url('../atmosphere-background.jpg') no-repeat center center fixed;
+  background: url('../art-background.jpg') no-repeat center center fixed;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,24 +13,24 @@
 }
 
 .resume-section {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .resume-title {
   font-family: Courier;
   font-weight: bold;
   font-size: 80px;
-  color: #000000;
+  color: white;
 }
 
 .category-title {
-  color: #000000;
+  color: white;
   font-weight: bold;
   font-size: 30px;
 }
 
 .resume-paragraph {
-  color: #000000;
+  color: white;
   font-weight: bold;
   border-bottom: 1px dotted;
 }

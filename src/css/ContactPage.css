@@ -1,0 +1,44 @@
+.contact-background {
+  background: url('../art-background.jpg') no-repeat center center fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+}
+
+.contact-wrapper {
+  height: 100vh;
+}
+
+.contact-section {
+  padding-top: 120px;
+}
+
+.contact-title {
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 80px;
+  color: #000000;
+}
+
+.card-box {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: -4px 0 rgb(255, 0, 0), 0 4px rgb(0, 38, 255);
+}
+
+.form-label {
+  color: aliceblue;
+}
+
+.form-group {
+  width: 500px;
+  padding-bottom: 10px;
+}
+
+.form-text {
+  width: 900px;
+  padding-bottom: 10px;
+}

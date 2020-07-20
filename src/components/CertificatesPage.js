@@ -24,7 +24,7 @@ class CertificatesPage extends Component {
                       alt="First slide"
                     />
                     <Carousel.Caption>
-                      <h3>First slide label</h3>
+                      <h3>Certified SOLIDWORKS Associate (CSWA)</h3>
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
@@ -35,7 +35,7 @@ class CertificatesPage extends Component {
                     />
 
                     <Carousel.Caption>
-                      <h3>Second slide label</h3>
+                      <h3>React Intro Course</h3>
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
@@ -46,7 +46,7 @@ class CertificatesPage extends Component {
                     />
 
                     <Carousel.Caption>
-                      <h3>Third slide label</h3>
+                      <h3>React Building Interfaces Course</h3>
                     </Carousel.Caption>
                   </Carousel.Item>
                 </Carousel>

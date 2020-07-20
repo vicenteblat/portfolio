@@ -53,12 +53,6 @@ class NavigationBar extends Component {
                 </NavLink>
                 <NavLink
                   className="nav-links-tx text-nowrap d-flex justify-content-center"
-                  href="#Memes"
-                >
-                  Memes
-                </NavLink>
-                <NavLink
-                  className="nav-links-tx text-nowrap d-flex justify-content-center"
                   href="#Contact"
                 >
                   Contact

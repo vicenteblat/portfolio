@@ -11,9 +11,9 @@ class ProjectsPage extends Component {
       <div id="Projects" className="projects-wrapper projects-background">
         <section className="projects-section">
           <Container>
-            <h1 className="projects-title d-flex justify-content-center">
+            {/* <h1 className="projects-title d-flex justify-content-center">
               Projects
-            </h1>
+            </h1> */}
             <CardDeck>
               <Card>
                 <Card.Img variant="top" src={Bronco} />
