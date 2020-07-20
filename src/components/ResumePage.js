@@ -8,9 +8,9 @@ class ResumePage extends Component {
       <div id="Resume" className="resume-wrapper resume-background">
         <section className="resume-section">
           <Container>
-            <h1 className="resume-title d-flex justify-content-center">
+            {/* <h1 className="resume-title d-flex justify-content-center">
               Resume
-            </h1>
+            </h1> */}
             <h2 className="category-title d-flex justify-content-center">
               Education
             </h2>

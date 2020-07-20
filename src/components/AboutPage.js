@@ -8,9 +8,9 @@ class AboutPage extends Component {
       <div id="About" className="about-wrapper about-background">
         <section className="about-section">
           <Container>
-            <h1 className="about-title d-flex justify-content-center">
+            {/* <h1 className="about-title d-flex justify-content-center">
               About me
-            </h1>
+            </h1> */}
             <div class="row d-flex justify-content-center">
               <div class="col-lg-12 col-centered">
                 <Card className="card-box">
