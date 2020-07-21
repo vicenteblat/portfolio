@@ -13,8 +13,8 @@ class AboutPage extends Component {
             </h1> */}
             <div class="row d-flex justify-content-center">
               <div class="col-lg-12 col-centered">
-                <Card className="card-box">
-                  <Card.Body className="card-paragraph">
+                <Card className="about-card-box">
+                  <Card.Body className="about-card-paragraph">
                     <Card.Text>
                       I was born and raised in Caracas, Venezuela. Moved to
                       Atlanta, Georgia in August of 2016 to pursue a Bachelor's
